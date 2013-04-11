@@ -3,11 +3,16 @@ $cur_dir = dirname(__FILE__);
 require_once($cur_dir.'/dompdf/dompdf_config.inc.php');
 
 class pdfCreator {
+	private $curDir;
+
+	public function __construct() {
+		global $cur_dir;
+		$this->curDir = $cur_dir;
+	}
 	
 	private function getHtml() {
-		global $cur_dir;
 		ob_start();
-		include($cur_dir . '/template.php');
+		include($this->curDir . '/template.php');
 		$retStr = ob_get_contents();
 		ob_end_clean();
 		return $retStr;
@@ -20,7 +25,7 @@ class pdfCreator {
 		$dompdf->render();
 		$output = $dompdf->output();
 			
-		$pdfFileName = $cur_dir.'/invoice.pdf';
+		$pdfFileName = $this->curDir.'/invoice.pdf';
 		file_put_contents($pdfFileName, $output);
 	}
 }

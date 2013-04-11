@@ -52,14 +52,14 @@
 			<tbody>
 				<tr>
 					<td width="30%">
-						<!-- <img src="http://exotel.in/wp-content/uploads/2013/03/exotel.png"> Your logo here -->
+						<img src="http://exotel.in/wp-content/uploads/2013/03/exotel.png"> <!-- your logo here -->
 					</td>
 					<td width="70%">
 						<h2>Tax Invoice</h2><br>
 						<strong>Date:</strong> <?php echo date('d/M/Y');?><br>
-						<strong>Billing Cycle:</strong> 01/01/2013 to 01/02/2013
-						<strong>Invoice Number:</strong> BF123
-						<strong>Due Date:</strong> 10/01/2013
+						<strong>Billing Cycle:</strong> 01/01/2013 to 01/02/2013<br>
+						<strong>Invoice Number:</strong> BF123<br>
+						<strong>Due Date:</strong> 10/01/2013<br>
 					</td>
 				</tr>
 				<tr>
@@ -135,7 +135,7 @@
 				<tr>
 					<td width="50%">
 						<div class="center-justified"><strong>To make a payment:</strong><br>
-							Your payment options
+							Your payment options<br>
 							<strong>ST Reg no:</strong> Your service tax number<br>
 							<strong>Service Category:</strong> Service tax category<br>
 							<strong>Service category code:</strong> Service tax code<br>
@@ -143,7 +143,11 @@
 					</td>
 					<td width="50%">
 						<div class="center-justified">
-						Your address
+						<strong>Address</strong><br>
+						Foo Baar<br>
+						Dubai<br>
+						Dubai Main Road<br>
+						Vivekanandar Street<br>
 					</td>
 				</tr>
 			</tbody>
