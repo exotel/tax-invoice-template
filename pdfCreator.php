@@ -25,7 +25,6 @@ class pdfCreator {
 	}
 }
 
-/*
+
 $pdfCreator = new pdfCreator();
 $pdfCreator->getPdf();
-*/
