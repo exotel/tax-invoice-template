@@ -11,4 +11,9 @@ Installation
 Usage
 =====
 
-From the shell, invoke it as php pdfCreator.php
+From the shell, invoke it as "php pdfCreator.php"
+
+Credits:
+========
+
+dompdf - https://github.com/dompdf/dompdf
