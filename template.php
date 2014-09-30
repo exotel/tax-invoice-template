@@ -82,9 +82,9 @@
 					<td colspan="3"><strong>Summary</strong></td>
 				</tr>
 				<tr class="border-bottom border-right center">
-					<td width="45%"><strong>Activity</strong></th>
-					<td width="25%"><strong>Tax</strong></th>
-					<td width="30%"><strong>Amount (INR)</strong></th>
+					<td width="45%"><strong>Activity</strong></td>
+					<td width="25%"><strong>Tax</strong></td>
+					<td width="30%"><strong>Amount (INR)</strong></td>
 				</tr>
 				<tr class="border-right">
 					<td class="pad-left">Summary Line item 1</td>
@@ -115,9 +115,9 @@
 					<td colspan="3"><strong>Usage Line Item 1</strong></td>
 				</tr>
 				<tr class="border-bottom border-right center">
-					<td width="45%"><strong>Description</strong></th>
-					<td width="25%"><strong>Date</strong></th>
-					<td width="30%"><strong>Amount (INR)</strong></th>
+					<td width="45%"><strong>Description</strong></td>
+					<td width="25%"><strong>Date</strong></td>
+					<td width="30%"><strong>Amount (INR)</strong></td>
 				</tr>
 				
 				<tr class="border-right">
